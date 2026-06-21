@@ -33,7 +33,7 @@ body {
   padding: 0 3.2rem;
 }
 
-.logo a{
+.logo a {
   color: #1a1a1a;
   font-size: 1.3rem;
   font-weight: bold;
@@ -54,7 +54,8 @@ body {
   font-size: 1.2rem;
   list-style: none;
 }
-.enlace a{
+
+.enlace a {
   text-decoration: none;
   color: #555555;
 }
@@ -67,7 +68,8 @@ body {
   border-radius: 0.6rem;
   text-decoration: none;
 }
-.reserva a{
+
+.reserva a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -78,7 +80,7 @@ body {
 
 .seccion {
   background-color: #000000;
-  padding: 3.2rem ;
+  padding: 3.2rem;
   display: flex;
   align-items: flex-start;
   flex-basis: 50%;
@@ -146,8 +148,116 @@ section p {
   border-radius: 0.6rem;
 }
 
+.menu {
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+}
 
-.nosotros{
+.menu-titulo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+
+.menu-titulo div:last-child {
+  margin-bottom: 2rem;
+}
+
+.menu span {
+  color: #c0392b;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.menu h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.menu a {
+  color: #555555;
+  font-size: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.menu a:hover {
+  color: #c0392b;
+  border-color: #c0392b;
+}
+
+.cards {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 -0.6rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  flex-basis: 25%;
+  overflow: hidden;
+  margin: 0 0.6rem;
+}
+
+.card img {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  /*
+  nota mental para mañana, me falta arreglar lo del padding
+  */
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  padding: 1.2rem 0 0 1.2rem;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #555555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  padding: 0 0 0 1.2rem;;
+}
+
+.pie-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.2rem 1.2rem 1.2rem;;
+}
+
+.pie-card span {
+  color: #c0392b;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.pie-card button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  
+}
+
+.pie-card button:hover{
+  background-color: #c0392b;
+}
+
+.nosotros {
   background-color: #ffffff;
   padding: 4.8rem 3.2rem;
   display: flex;
@@ -155,27 +265,31 @@ section p {
   justify-content: space-between;
 
 }
-.historia{
+
+.historia {
   flex-basis: 45%;
 }
-.historia span{
+
+.historia span {
   color: #c0392b;
   font-size: 1rem;
   margin-bottom: 0.6rem;
 }
-.historia h2{
+
+.historia h2 {
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 1.6rem;
 }
-.historia p{
+
+.historia p {
   font-size: 1.3rem;
   color: #555555;
   line-height: 1.8;
   margin-bottom: 1.2rem;
 }
 
-.panel{
+.panel {
   flex-basis: 45%;
   border: 0.1rem solid #e0ddd5;
   border-radius: 1rem;
@@ -183,14 +297,16 @@ section p {
   align-items: stretch;
   justify-content: center;
 }
-.panel div{
+
+.panel div {
   flex-basis: 33.33%;
   background-color: #ffffff;
   padding: 2rem 1.6rem;
   text-align: center;
   border-right: 0.1rem solid #e0ddd5;
 }
-.panel span{
+
+.panel span {
   font-size: 2.4rem;
   font-weight: bold;
   color: #1a1a1a;
@@ -216,33 +332,46 @@ section p {
   font-weight: bold;
   margin-bottom: 1.2rem;
 }
-.seccion1 p{
+
+.seccion1 p {
   color: #666666;
   font-size: 1.1rem;
   line-height: 1.9;
 }
-.seccion2, .seccion3, .seccion4 {
+
+.seccion2,
+.seccion3,
+.seccion4 {
   flex-basis: -18%;
-} 
-.seccion2 h4, .seccion3 h4, .seccion4 h4{
+}
+
+.seccion2 h4,
+.seccion3 h4,
+.seccion4 h4 {
   color: #999999;
   font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 1.2rem;
-} 
+}
 
-.seccion2 li, .seccion3 li, .seccion4 li{
+.seccion2 li,
+.seccion3 li,
+.seccion4 li {
   font-size: 1.1rem;
   color: #666666;
   line-height: 1.9;
   list-style: none;
   margin-left: -4rem;
 }
-.seccion2 a, .seccion3 a, .seccion4 a{
+
+.seccion2 a,
+.seccion3 a,
+.seccion4 a {
   color: #666666;
   text-decoration: none;
 }
-.barra{
+
+.barra {
   margin-top: -3rem;
   border-top: 0.1rem solid #222222;
   padding-top: 1.6rem;
@@ -250,20 +379,24 @@ section p {
   align-items: center;
   justify-content: space-between;
 }
-.barra p{
+
+.barra p {
   font-size: 1rem;
   color: #444444
 }
-.barra ul{
+
+.barra ul {
   display: flex;
   margin: 0 1.6rem;
 }
-.barra ul li{
-    margin: 0 1.6rem;
-    list-style: none;
-    font-size: 1rem;
+
+.barra ul li {
+  margin: 0 1.6rem;
+  list-style: none;
+  font-size: 1rem;
 }
-.barra ul li a{
-    color: #444444;
-    text-decoration: none;
+
+.barra ul li a {
+  color: #444444;
+  text-decoration: none;
 }
