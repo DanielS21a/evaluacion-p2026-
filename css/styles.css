@@ -223,14 +223,16 @@ section p {
   color: #555555;
   line-height: 1.5;
   margin-bottom: 1rem;
-  padding: 0 0 0 1.2rem;;
+  padding: 0 0 0 1.2rem;
+  ;
 }
 
 .pie-card {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 1.2rem 1.2rem 1.2rem;;
+  padding: 0 1.2rem 1.2rem 1.2rem;
+  ;
 }
 
 .pie-card span {
@@ -250,11 +252,106 @@ section p {
   align-items: center;
   justify-content: center;
   padding: 0;
-  
+
 }
 
-.pie-card button:hover{
+.pie-card button:hover {
   background-color: #c0392b;
+}
+
+.mas-pedidos {
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  border-top: 0.1rem solid #e0ddd5;
+  border-bottom: 0.1rem solid #e0ddd5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.colum-1 {
+  flex-basis: 28rem;
+  flex-shrink: 0;
+  margin-right: 4.8rem;
+}
+
+.colum-1 span {
+  color: #c0392b;
+  font-size: 1rem;
+}
+
+.colum-1 h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.colum-1 p {
+  font-size: 1.2rem;
+  color: #555555;
+  line-height: 1.7;
+}
+
+.colum-2 {
+  flex: 1;
+}
+
+.colum-2 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.colum-2 li {
+  display: flex;
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+
+.colum-2 li:last-child {
+  border-bottom: none;
+}
+
+.colum-2 img {
+  width: 5.2rem;
+  height: 5.2rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-right: 1.4rem;
+}
+
+.plato {
+  display: flex;
+  flex-direction: column;
+}
+
+.plato span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.plato small {
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+.plato-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  text-align: right;
+}
+
+.plato-info span {
+  color: #c0392b;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.plato-info small {
+  font-size: 1rem;
+  color: #555555;
 }
 
 .nosotros {
