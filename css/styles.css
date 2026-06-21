@@ -409,6 +409,102 @@ section p {
   color: #1a1a1a;
 }
 
+.contacto {
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  border-top: 0.1rem solid #e0ddd5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.informacion {
+  flex-basis: 40%;
+}
+
+.informacion span {
+  color: #c0392b;
+  font-size: 1rem;
+}
+
+.informacion h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+.informacion p {
+  font-size: 1.3rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 2.4rem;
+}
+
+.informacion ul {
+  margin-left: -4rem;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.informacion li {
+  font-size: 1.2rem;
+  color: #555555;
+  margin-bottom: 1rem;
+}
+
+.informacion a {
+  color: #c0392b;
+}
+
+.formulario {
+  flex-basis: 50%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+.campo {
+  margin-bottom: 1rem;
+}
+
+.campo label {
+  display: block;
+  font-size: 1.1rem;
+  color: #555555;
+  margin-bottom: 0.4rem;
+}
+
+.campo input,
+.campo textarea {
+  background-color: #f9f8f5;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 0.6rem;
+  padding: 0.9rem 1.2rem;
+  font-size: 1.2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formulario button {
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.6rem;
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+
 .footer {
   background-color: #111111;
   padding: 3.6rem 3.2rem 2rem;

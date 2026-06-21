@@ -181,28 +181,39 @@
 
   <!-- ===================== INICIO CONTACTO ===================== -->
 
-  <span>Escríbenos</span>
-  <h2>Contáctanos</h2>
-  <p>Reservas, consultas o simplemente salúdanos. Respondemos en menos de 24 horas.</p>
-  <ul>
-    <li>Teléfono: +56 9 1234 5678</li>
-    <li>Correo: <a href="mailto:hola@tawenosushi.cl">hola@tawenosushi.cl</a></li>
-    <li>Horario: Mar–Dom 12:00–22:00</li>
-  </ul>
+  <section class="contacto">
+    <div class="informacion">
+      <span>Escríbenos</span>
+      <h2>Contáctanos</h2>
+      <p>Reservas, consultas o simplemente salúdanos. Respondemos en menos de 24 horas.</p>
+      <ul>
+        <li>Teléfono: +56 9 1234 5678</li>
+        <li>Correo: <a href="mailto:hola@tawenosushi.cl">hola@tawenosushi.cl</a></li>
+        <li>Horario: Mar–Dom 12:00–22:00</li>
+      </ul>
+    </div>
 
-  <form action="#" method="post">
-    <label for="nombre">Nombre completo</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    <div class="formulario">
+      <form action="#" method="post">
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
 
-    <label for="email">Correo electrónico</label>
-    <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+        <div class="campo">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+        </div>
 
-    <label for="mensaje">Mensaje</label>
-    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
 
-    <button type="submit">Enviar mensaje</button>
-  </form>
-
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </div>
+  </section>
   <!-- ===================== FIN CONTACTO ===================== -->
 
 
